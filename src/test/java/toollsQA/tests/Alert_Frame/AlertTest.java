@@ -18,7 +18,6 @@ public class AlertTest extends TestBase {
         alertPage.alertbtn.click();
 
         org.openqa.selenium.Alert alert = driver.switchTo().alert();
-
         String str = alert.getText();
         System.out.println("str = " + str);
         alert.accept();
