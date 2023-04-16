@@ -21,6 +21,5 @@ public class AlertTest extends TestBase {
         String str = alert.getText();
         System.out.println("str = " + str);
         alert.accept();
-
     }
 }
