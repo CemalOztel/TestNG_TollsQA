@@ -1,6 +1,6 @@
 package toollsQA.pages.ElementsPage;
 
-import com.eurotech.utilities.Driver;
+import toollsQA.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
