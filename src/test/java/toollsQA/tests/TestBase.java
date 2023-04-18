@@ -27,14 +27,14 @@ public class TestBase {
         actions=new Actions(driver);
         wait=new WebDriverWait(Driver.get(),15);
         driver.get(ConfigurationReader.get("url"));
-        //JavascriptExecutor abc =(JavascriptExecutor)driver;
+
     }
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(2000);
-        //driver.close();
-        //Driver.closeDriver();
+        driver.close();
+        Driver.closeDriver();
 
     }
 
