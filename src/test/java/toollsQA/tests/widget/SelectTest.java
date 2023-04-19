@@ -32,7 +32,7 @@ public class SelectTest extends TestBase {
 
         widgetsPage.selectRandom(widgetsPage.carsList);
 
-
+// select güncelleme
     }
 
 
