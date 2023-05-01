@@ -8,6 +8,20 @@ import toollsQA.utilities.Driver;
 public abstract class BasePage {
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public void navigateToMenu(String menuName){
         Driver.get().findElement(By.xpath("//*[text()='"+ menuName +"']")).click();
     }
