@@ -27,7 +27,7 @@ public class TestBase {
         actions=new Actions(driver);
         wait=new WebDriverWait(Driver.get(),15);
         driver.get(ConfigurationReader.get("url"));
-//JavascriptExecutor abc =(JavascriptExecutor)driver;
+        //JavascriptExecutor abc =(JavascriptExecutor)driver;
     }
 
     @AfterMethod
